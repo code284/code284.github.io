@@ -1,25 +1,31 @@
 body { 
-    font-family: Helvetica, Arial, sans-serif; 
+    font-family: "Fira Sans", sans-serif; 
     margin: 0px;
     font-size: 2vw;
+    background-color: rgb(255, 198, 236);
+}
+#menu {
+    padding: 32px ;
+    background-color: rgb(255, 198, 236) ;
+    grid-area: menu ;
 }
 
 #logo {
     margin: 0px;
     padding: 8px;
-    font-family: "Fredoka One", sans-serif;
+    font-family: "Fira Sans", sans-serif;
     width: 16%;
     text-shadow:
-    1px 1px 0px black,
-    -1px 1px 0px black,
-    1px -1px 0px black,
-    -1px -1px 0px black;
+    1px 1px 0px rgb(200, 113, 171),
+    -1px 1px 0px rgb(200, 113, 171),
+    1px -1px 0px rgb(200, 113, 171),
+    -1px -1px 0px rgb(200, 113, 171);
 }
 ul{
     margin: 0px;
 }
 body > header {
-    background-color: orange;
+    background-color: pink;
     color: white;   
     display: flex ;
     height: 12vh;
@@ -74,7 +80,7 @@ h2 {
 }
 
 body > footer{
-    background-color: orange;
+    background-color: pink;
     display: flex;
 }
 
